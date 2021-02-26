@@ -56,13 +56,13 @@
 		C880498325E94E43000B53D9 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				C88049A625E96684000B53D9 /* Resources */,
+				C88049A525E9667F000B53D9 /* Models */,
+				C88049A425E96678000B53D9 /* Views */,
 				C880498425E94E43000B53D9 /* LandmarksApp.swift */,
-				C880498625E94E43000B53D9 /* ContentView.swift */,
 				C880498825E94E46000B53D9 /* Assets.xcassets */,
 				C880498D25E94E46000B53D9 /* Info.plist */,
 				C880498A25E94E46000B53D9 /* Preview Content */,
-				C880499525E95464000B53D9 /* CircleImage.swift */,
-				C880499825E955A5000B53D9 /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -73,6 +73,30 @@
 				C880498B25E94E46000B53D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C88049A425E96678000B53D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C880498625E94E43000B53D9 /* ContentView.swift */,
+				C880499525E95464000B53D9 /* CircleImage.swift */,
+				C880499825E955A5000B53D9 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C88049A525E9667F000B53D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C88049A625E96684000B53D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
